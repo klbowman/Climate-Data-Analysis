@@ -101,11 +101,16 @@ def tobs():
 @app.route("/api/v1.0/<date>")
 def start(date):
     """Return the min, max, ave temps as json"""
+    session = Session(engine)
+    date = dt.datetime.strptime(date,'%Y-%m-%d')
+    start_results = session.query(func.ave(Measurement.tobs),func.min(Measurement.tobs),func.max(Measurement.tobs)).filter(Measurement.date >= date).all()
+    print(start_results)
+    session.close()
 
-    start_results = session.query(Measurement.date, func.ave(Measurement.tobs,func.min(Measurement.tobs),func.max(Measurement.tobs))).filter(Measurement.station >= date).group_by(Measurement.station).all()
-
-    return jsonify(start_results)
+    start = list(np.ravel(start_results))
+    return jsonify(start)
 
 if __name__ == "__main__":
     app.run(debug=True)
 
+# start_results = session.query(Measurement.date, func.ave(Measurement.tobs),func.min(Measurement.tobs),func.max(Measurement.tobs)).filter(Measurement.date >= date).all()
