@@ -1,6 +1,6 @@
 # Climate Analysis and Exploration 
 
-Basic climate analysis and data exploration using Python and SQLAlchemy...flask app
+Basic climate analysis and data exploration using Python and SQLAlchemy with a Flask application to display data.
 
 ## Description
 
@@ -11,20 +11,7 @@ This repository is designed to explore and analyze climate data using Python and
   <img src="https://user-images.githubusercontent.com/74067302/146426600-9f1b4237-d2d7-42b4-bedd-50bd08b6a4d5.png" alt="Bar Chart: Temperature" width="400"/>
 </p>
 
-
-visualize taxonomic data using charts, and display metadata in an organized panel. The [data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) comes from a study that sequenced the microbiome of 153 human belly buttons (Hulcr et al., 2012), and is stored in the samples.json file. Individual samples are identified by a numerical code and accompanied by metadata including age, gender, ethnicity, etc. Operational taxonomic units (OTUs) id numbers and counts are provided for each sample.
-
-The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
-* Bar graph displaying the top 10 OTUs by count
-* Gauge plot showing the belly button scrubs per week
-* Bubble plot displaying OTU counts for the entire sample
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145615550-98e49162-44c9-4e39-9050-ba837dc42863.png" alt="Dashboard Image"/>
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145615561-5fc19f35-646b-47aa-9f63-4a93a495efe5.png" alt="Dashboard Image"/>
-</p>
+A Flask API application is designed to create and display dictionaries of each query developed in the Juptyer Notebook file (climate_starter.ipynb). Flask application routes display JSON lists of precipitation, station ID, and observed temperature. 
 
 ## Getting Started
 
