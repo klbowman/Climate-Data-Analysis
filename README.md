@@ -13,7 +13,7 @@ This repository is designed to explore and analyze climate data from Hawaii usin
 
 A [Flask](https://flask.palletsprojects.com/en/2.0.x/) API application is designed to create and display dictionaries of each query developed in the Juptyer Notebook file (climate_starter.ipynb). Flask application routes display JSON lists of precipitation, station ID, and observed temperature. 
 
-Additional analysis of temperature data from a CSV file (hawaii_measurements.csv) in the Resources directory uses Pandas to convert the date column from string to datetime format, then performs a t-test using SciPy, to determine that temperatures are significantly higher in June compared to December (temp_analysis_bonus_1_starter.ipynb). Minimum, maximum, and average temperatures are plotted for popular vacation periods (Feb. 28 - March 5) in 2012 (temp_analysis_bonus_2_starter) to furthur investigate ideal vacation dates.
+Additional analysis of temperature data from a CSV file (hawaii_measurements.csv) in the Resources directory uses Pandas to convert the date column from string to datetime format, then performs a t-test using SciPy, to determine that temperatures are significantly higher in June compared to December (temp_analysis_bonus_1_starter.ipynb). Minimum, maximum, and average temperatures are plotted for popular vacation periods (Feb. 28 - March 5) in 2012 (temp_analysis_bonus_2_starter) to further investigate ideal vacation dates.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74067302/146430095-b96c9a58-5282-4d2a-9f0f-c9512e7710c0.png" alt="Bar Chart: Temperature"/>
