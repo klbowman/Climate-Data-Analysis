@@ -36,7 +36,7 @@ Additional analysis of temperature data from a CSV file (hawaii_measurements.csv
 ### Installing
 
 * Clone this repository to your desktop.
-* Navitage to the home directory and launch app.py.
+* Navigate to the home directory and launch app.py.
 
 ### Data Sources
 
