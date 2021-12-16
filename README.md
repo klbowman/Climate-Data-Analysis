@@ -1,6 +1,6 @@
 # Climate Analysis and Exploration 
 
-Basic climate analysis and data exploration using Python and SQLAlchemy with a Flask application to display.
+Basic climate analysis and data exploration using Python and SQLAlchemy with a Flask application to display data.
 
 ## Description
 
