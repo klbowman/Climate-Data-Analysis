@@ -4,7 +4,7 @@ Basic climate analysis and data exploration using Python and SQLAlchemy with a F
 
 ## Description
 
-This repository is designed to explore and analyze climate data from Hawaii using Python and SQLAlchemy. The **goal** is to analyze previous weather conditions to select ideal vacation dates. Climate data is imported into Jupyter Notebook (climate_starter.ipynb) from a SQL database using sqlite. A SQLAlchemy engine is created to connect to the sqlite database (hawaii.sqlite) in the Resources directory, and a Base is used to reflect the tables into classes. Pandas and Matplotlib are used to analyze and visualize precipitation and temperature data from the past 12 months. 
+This repository is designed to explore and analyze climate data from Hawaii using Python and SQLAlchemy. The **goal** is to analyze previous weather conditions to select ideal vacation dates. Climate data is imported into Jupyter Notebook (climate_starter.ipynb) from a SQL database using sqlite. A SQLAlchemy engine is created to connect to the sqlite database (hawaii.sqlite) in the Resources directory, and a Base is used to reflect the tables into classes. Pandas and Matplotlib are used to analyze and visualize precipitation and temperature data from the past 12. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74067302/146426590-1af40c96-2eb9-41bf-8c24-91a2f3255091.png" alt="Bar Chart: Precipitation" width="400"/>
